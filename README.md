@@ -5,6 +5,7 @@
    </p>
 
 <!-- Badges -->
+
 <p>
   <a href="https://github.com/dalessandro07/fix_scroll/commits">
     <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/y/dalessandro07/fix_scroll?style=flat-square">
@@ -25,10 +26,8 @@
 
 Debes tener activada la opción "Modo Desarrollador" en chrome://extensions.
 
-1. Descarga la carpeta dist (.zip).
-
-2. Extrae el archivo descargado.
-
+1. Descarga el archivo comprimido en releases (.zip).
+2. Extrae el archivo .zip descargado.
 3. Dentro de chrome://extensions haz clic en cargar descomprimida y selecciona la carpeta de la extensión.
 
-Atajo: Una vez instalada la extensión, puedes utilizarla en cualquier sitio web presionando la siguiente combinación: ```ctrl + alt + f```
+Atajo: Una vez instalada la extensión, puedes utilizarla en cualquier sitio web presionando la siguiente combinación: ``ctrl + alt + f``
