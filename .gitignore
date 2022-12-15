@@ -2,4 +2,3 @@ node_modules
 .eslintrc.js
 tailwind.config.cjs
 postcss.config.cjs
-dist
