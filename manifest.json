@@ -1,0 +1,32 @@
+{
+  "name": "Fix Scroll",
+  "description": "Extensión eliminar las animaciones de scroll en cualquier sitio web.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage", "activeTab", "scripting", "clipboardRead"],
+  "action": {
+    "default_popup": "./index.html",
+    "default_icon": {
+      "16": "/images/favicon-16x16.png",
+      "32": "/images/favicon-32x32.png",
+      "48": "/images/favicon.ico",
+      "128": "/images/android-chrome-192x192.png"
+    }
+  },
+  "icons": {
+    "16": "/images/favicon-16x16.png",
+    "32": "/images/favicon-32x32.png",
+    "48": "/images/favicon.ico",
+    "128": "/images/android-chrome-192x192.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["./assets/popup.js"]
+    }
+  ]
+}
+
