@@ -1,6 +1,6 @@
 {
   "name": "Fix Scroll",
-  "description": "Extensión eliminar las animaciones de scroll en cualquier sitio web.",
+  "description": "Extensión que te permite eliminar las animaciones de scroll en cualquier sitio web.",
   "version": "1.0",
   "manifest_version": 3,
   "background": {
